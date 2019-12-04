@@ -20,10 +20,14 @@ html {
 
 article {
   max-width: 43em;
+  margin-left: .5em;
 }
 
 article h1 {
   font-weight: normal;
+  line-height: 1.3;
+  margin-bottom: 0;
+
 }
 
 article header {
@@ -32,6 +36,7 @@ article header {
 
 article header p {
   font-style: italic;
+  margin-top: 0;
 }
 
 article > p:last-child {
